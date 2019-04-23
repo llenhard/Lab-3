@@ -15,7 +15,7 @@ namespace lab3
             Console.WriteLine("Enter an integer value between 1 and 100.");
             number = int.Parse(Console.ReadLine());
 
-            if (number<1 || number>100)
+            if (number<1 || number>100) //validity check
             {
                 Console.WriteLine("That isn't between 1 and 100!");
             }
